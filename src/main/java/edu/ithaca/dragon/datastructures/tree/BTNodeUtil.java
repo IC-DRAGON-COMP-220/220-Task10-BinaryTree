@@ -29,7 +29,7 @@ public class BTNodeUtil{
     }
 
     /**
-     * makes a string with the root, then the subtree left of root, then the subtree right of root
+     * makes a string with the subtree left of root, the subtree right of root, and then the root
      */
     public static <T> String postOrderString(BTNode<T> root){
         //TODO
@@ -37,7 +37,7 @@ public class BTNodeUtil{
     }
 
     /**
-     * makes a string with the root, then the subtree left of root, then the subtree right of root
+     * makes a string with the subtree left of root, the root, and then the subtree right of root
      */
     public static <T> String inOrderString(BTNode<T> root){
         //TODO
